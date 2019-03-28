@@ -1,9 +1,8 @@
 ---
 layout: page
-title: JasonGN Blog, Welcome!
+title: Welcome!
+tagline: JasonGN Blog
 ---
-
-{% include JB/setup %}
 
 # Blogs
 <ul class="posts">
