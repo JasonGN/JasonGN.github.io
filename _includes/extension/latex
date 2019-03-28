@@ -1,0 +1,14 @@
+<!-- Latex Math -->
+{%if page.latex %}
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+        processEscapes: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+    });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML' async></script>
+{% endif %}
