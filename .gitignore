@@ -3,3 +3,7 @@ _site
 .jekyll-metadata
 .DS_Store
 Gemfile.lock
+_theme_packages
+Thumbs.db
+.rbenv-version
+.rvmrc
