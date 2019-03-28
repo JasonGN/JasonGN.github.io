@@ -15,7 +15,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 #  jailed: false
 #  theme: jekyll-theme-primer
 #  gfm_quirks: paragraph_end
-
+theme: bootstrap-3
 # GitHub Pages & Jekyll override the following settings in your _config.yml file, which you cannot change:
 
 # lsi: false
