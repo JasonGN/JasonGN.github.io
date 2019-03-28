@@ -1,0 +1,17 @@
+<!-- Gitalk -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script>
+    const gitalk = new Gitalk({
+    clientID: '089dd0ada87716347015',
+    clientSecret: '297c7bb5062bf478b2164becbe648716f678f221',
+    repo: 'JasonGN.github.io',
+    owner: 'JasonGN',
+    admin: ['JasonGN'],
+    id: window.location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+    })
+    gitalk.render('gitalk-container');
+</script>
+<!-- Gitalk End -->
